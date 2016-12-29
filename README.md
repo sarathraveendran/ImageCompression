@@ -1,5 +1,4 @@
 # ImageCompression
-
 ============================================================================================  
 
 Compress your image size with just one line of code.
@@ -16,9 +15,9 @@ Highlights
 1. Reduces size around 60% to 90% of original size or more -> 23MB to 600KB
 2. Quality stabilization
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
 Detailed Sample
-
+~~~~~~~~~~~~~~~
 // Orginal Image
 let image = UIImage(named: "Your-Image-Name")
 
@@ -34,4 +33,4 @@ let compressedImage =  ImageHandler().compressImage(image: image, compressRatio:
 let compressedImageData = NSData(data: UIImageJPEGRepresentation(compressedImage, 1)!)
 let imageSize: Double = Double(compressedImageData.length)
 print("Compressed size: \((imageSize / 1024.0 ) / 1024.0))")
-============================================================================================         
+        
