@@ -2,11 +2,10 @@
 
 ============================================================================================  
 Compress your image size with just one line of code.
-Add the "ImageHandler.swift" file in your project 
+1. Add the "ImageHandler.swift" file in your project 
+2. Add let newImage = ImageHandler().compressImage(image: "Your-Image-Name", compressRatio: 0.9)
 
-And just call the following line of code for compress your image size
-let newImage = ImageHandler().compressImage(image: "Your-Image-Name", compressRatio: 0.9)
-
+Thats it.. Happy Coding :)
 
 Highlights
 ~~~~~~~~~~
